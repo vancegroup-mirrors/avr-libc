@@ -37,7 +37,7 @@
 
 #ifndef _AVR_WDT_H_
 #define _AVR_WDT_H_
-
+#include <iom644rfr2.h> // NOTE Add thsi import for header file to function properly.
 #include <avr/io.h>
 #include <stdint.h>
 
